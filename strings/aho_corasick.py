@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from collections import deque
 
-
+#
 class Automaton:
     def __init__(self, keywords: list[str]):
         self.adlist: list[dict] = []
